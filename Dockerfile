@@ -11,10 +11,13 @@ RUN git clone https://github.com/ElytrA8/ProjectFizilion -b dragon /Fizilion
 #
 COPY ./sample_config.env ./userbot.session* ./config.env* ./sourceforge.sh /Fizilion/
 RUN chmod 777 /Fizilion/sourceforge.sh
+
 #transfer
 RUN curl -sL https://git.io/file-transfer | sh 
-RUN mv transfer /Fizilion/bin
-RUN chmod 777 /Fizilion/transfer
+RUN mkdir -p /Fizilion/transferbin && chmod 777 /Fizilion/tranferbin
+RUN mv ./transfer /Fizilion/transferbin/
+RUN chmod 777 /Fizilion/transferbin/transfer
+ENV PATH="/Fizilion/transferbin:$PATH"
 
 #
 # Finalization
