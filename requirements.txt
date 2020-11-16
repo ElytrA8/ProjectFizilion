@@ -30,6 +30,7 @@ lxml
 lyricsgenius
 oauth2client
 pendulum
+pexpect
 Pillow
 psutil
 psycopg2

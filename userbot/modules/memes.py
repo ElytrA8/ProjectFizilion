@@ -1370,6 +1370,34 @@ async def nou(noway):
           "`No U ultra pro max extremis supreme super duper hyper premium legendary epic mega omega expert maestro first class adept top-notch excellent magical super-magical superior exceptional dextrous ingenious gawd of gawds so pro af teach me how to be pro like you🔥`"
      )
 
+@register(outgoing=True, pattern="^.gm$")
+async def nou(noway):
+    if not noway.text[0].isalpha() and noway.text[0] not in ("/", "#", "@", "!"):
+        await noway.edit(
+          "Good Morning"
+     )
+
+@register(outgoing=True, pattern="^.ga$")
+async def nou(noway):
+    if not noway.text[0].isalpha() and noway.text[0] not in ("/", "#", "@", "!"):
+        await noway.edit(
+          "Good Afternoon"
+     )
+
+@register(outgoing=True, pattern="^.ge$")
+async def nou(noway):
+    if not noway.text[0].isalpha() and noway.text[0] not in ("/", "#", "@", "!"):
+        await noway.edit(
+          "Good Evening"
+     )
+
+@register(outgoing=True, pattern="^.gn$")
+async def nou(noway):
+    if not noway.text[0].isalpha() and noway.text[0] not in ("/", "#", "@", "!"):
+        await noway.edit(
+          "Good Night"
+     )
+
 CMD_HELP.update(
     {
         "memes": ".cowsay\
