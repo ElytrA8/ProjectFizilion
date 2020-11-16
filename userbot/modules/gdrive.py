@@ -182,7 +182,7 @@ async def create_app(gdrive):
                 str(gdrive.from_id), base64.b64encode(pickle.dumps(creds)).decode()
             )
         else:
-            await gdrive.edit("`Credentials is empty, please generate it...`")
+            await gdrive.edit("`Credentials is empty, please generate it by entering .gdauth...`")
             return False
     service = build("drive", "v3", credentials=creds, cache_discovery=False)
     return service
