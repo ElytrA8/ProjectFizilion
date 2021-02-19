@@ -18,6 +18,7 @@
 /**
 ```
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1a9dff34cce540fa9108403f45fce158)](https://app.codacy.com/gh/ElytrA8/ProjectFizilion?utm_source=github.com&utm_medium=referral&utm_content=ElytrA8/ProjectFizilion&utm_campaign=Badge_Grade_Settings)
 [![CI](https://img.shields.io/github/workflow/status/ElytrA8/ProjectFizilion/FailedChecker?style=for-the-badge)](https://github.com/ElytrA8/ProjectFizilion/actions "build")
 ![Docker](https://img.shields.io/docker/cloud/build/elytra8/projectfizilion?style=for-the-badge)
 ![Docker_Size](https://img.shields.io/docker/image-size/elytra8/projectfizilion?style=for-the-badge)
