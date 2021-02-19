@@ -139,8 +139,8 @@ ALIVE_LOGO = str(os.environ.get("ALIVE_LOGO") or "https://github.com/ElytrA8/Pro
 COUNTRY = str(os.environ.get("COUNTRY") or "")
 TZ_NUMBER = int(os.environ.get("TZ_NUMBER") or 1)
 
-# Version of One4uBot
-USERBOT_VERSION = os.environ.get("USERBOT_VERSION") or "1.1"
+# Version of Fizilion Userbot
+USERBOT_VERSION = os.environ.get("USERBOT_VERSION") or "production v2.0"
 
 # User Terminal alias
 USER_TERM_ALIAS = os.environ.get("USER_TERM_ALIAS") or "drag0n"
@@ -182,16 +182,8 @@ G_DRIVE_FOLDER_ID = os.environ.get("G_DRIVE_FOLDER_ID") or None
 TEMP_DOWNLOAD_DIRECTORY = os.environ.get(
     "TMP_DOWNLOAD_DIRECTORY") or "./downloads"
 
-# Uptobox
-USR_TOKEN = os.environ.get("USR_TOKEN_UPTOBOX", None)
-
-#SourceForge
-SFUSER = os.environ.get("SFUSER") or "null"
-SFPASS = os.environ.get("SFPASS") or "null"
-SFDIR = os.environ.get("SFDIR") or "null"
-
 # Setting Up CloudMail.ru and MEGA.nz extractor binaries,
-# and giving them correct perms to work properly.
+# and them correct perms to work properly.
 if not os.path.exists("bin"):
     os.mkdir("bin")
 
