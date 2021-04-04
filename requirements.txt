@@ -1,4 +1,4 @@
-aiohttp
+aiohttp[speedups]
 aria2p
 asyncurban
 async_generator
