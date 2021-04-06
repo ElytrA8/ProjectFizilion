@@ -5,7 +5,7 @@ from userbot.events import register
 import os
 import json
 
-@register(pattern="^.webupload ?(.+?|) (?:)(anonfiles|transfer|filebin|anonymousfiles|megaupload|bayfiles|openload|file.io|vshare)")
+@register(pattern="^.webupload ?(.+?|) (?:)(anonfiles|transfer|filebin|anonymousfiles|megaupload|bayfiles|openload|file.io|vshare|0x0|letsupload)")
 async def webupload(event):
     await event.edit("'Processing...'")
     input_str = event.pattern_match.group(1)
@@ -55,4 +55,4 @@ async def webupload(event):
         await event.edit(t_response)
 
 CMD_HELP.update({"webupload":
-                 "`.webupload` (filename) `anonfiles` | `transfer` | `anonymousfiles` | `megaupload` | `bayfiles` | `openload` | `file.io` | `vshare` "})
+                 "`.webupload` (filename) `anonfiles` | `transfer` | `anonymousfiles` | `megaupload` | `bayfiles` | `openload` | `file.io` | `vshare` | '0x0' | 'letsupload'"})
