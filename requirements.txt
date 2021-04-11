@@ -13,6 +13,7 @@ cryptg
 dnspython
 deezloader
 emoji
+https://github.com/yt-dlp/yt-dlp/archive/master.zip
 gitpython
 glitch_this
 google-api-python-client
